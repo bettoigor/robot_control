@@ -1,0 +1,21 @@
+<launch>
+    
+    <!-- Loading the robot control parameters to the Param Server -->
+    <rosparam file="$(find robot_control)/cfg/robot_params.yaml"/>
+    <arg name="phi_l" default="1"/>
+    <arg name="phi_r" default="1"/>
+
+	<!-- Starting the middle level control node --> 
+    <node name="robot_velocity_control_node" 
+        pkg="robot_control" 
+        type="velocity_control_node"
+        args="$(arg phi_l) $(arg phi_r)">
+        <!--output="screen"-->
+
+	<remap from="cmd_vel" to="/cmd_vel"/>
+	<remap from="speed" to="/speed"/>
+	<remap from="rtk" to="/gps/rtk"/>
+	</node>
+
+   	
+</launch>

@@ -1,0 +1,16 @@
+<launch>
+    
+    <!-- Loading the middle leve control node for receive cmd_vel -->
+    <include 
+        file="$(find robot_control)/launch/velocity.launch">
+    </include>
+
+    
+    <!-- Loading the lower leve control node for serial communication
+    <include 
+        file="$(find robot_control)/launch/speed.launch">
+    </include>
+    -->
+  	
+   	
+</launch>

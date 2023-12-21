@@ -1,0 +1,18 @@
+<launch>
+    
+    <!-- Loading the robot control parameters to the Param Server -->
+    <rosparam file="$(find robot_control)/cfg/line_following_params.yaml"/>
+	
+	<!-- Starting the middle level control node --> 
+    <node name="line_following_node" 
+        pkg="robot_control" 
+        type="line_following_node.py"
+        output="screen">
+
+	<remap from="rtk" to="/rtk_fix"/>
+	<remap from="mission" to="/mission"/>
+	<remap from="odom" to="/odom"/>
+	</node>
+
+   	
+</launch>

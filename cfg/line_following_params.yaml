@@ -1,0 +1,10 @@
+line_following:
+  control:
+    rate: 10
+    force_cmd_vel: True
+    gains_line: [0.65,0.6]
+    linear_velocity: 0.2
+    angular_velocity: 1.
+    gains_polar: [1.0,1.2,0.8]
+    linear_threshold: 0.2
+    angular_threshold: 0.05

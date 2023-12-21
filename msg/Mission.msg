@@ -1,0 +1,5 @@
+bool start_mission
+float64 start_latitude
+float64 start_longitude
+float64 stop_latitude
+float64 stop_longitude

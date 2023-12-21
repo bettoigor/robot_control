@@ -1,0 +1,20 @@
+control:
+  phisical_params:
+    wheel_separation: 2.23
+    radius_left_wheel: 0.285
+    radius_right_wheel: 0.285
+    gps_front_dist: 0.5
+    gps_rear_dist: 1.8
+    gps_separation: 1.8
+    max_speed: 2000
+    motor_gain_l: 320
+    motor_gain_r: 320
+  communication:
+    port: /dev/ttyDriver
+    baud_rate: 57600
+    timeout: 1
+    udp_port: 61000
+    server_add: 172.16.1.54
+  control:
+    rate: 10
+    force_cmd_vel: true

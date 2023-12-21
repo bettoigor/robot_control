@@ -1,0 +1,20 @@
+<launch>
+    
+    <rosparam file="$(find robot_control)/cfg/robot_params.yaml"/>
+    <arg name="phi_l" default="1"/>
+    <arg name="phi_r" default="1"/>
+
+	
+    <!-- Loading the lower level control node -->
+    <node name="speed_control_node" 
+        pkg="robot_control" 
+        type="speed_control_node.py"
+        args="$(arg phi_l) $(arg phi_r)">
+        <!--output="screen"-->
+
+	<remap from="speed" to="/speed"/>
+	<remap from="motor_status" to="/motor_status"/>
+	</node>
+
+   	
+</launch>

@@ -1,0 +1,154 @@
+rostopic pub -1 /rtk_fix rtk/rtk_fix "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+utc_date: 0
+utc_time: 0
+latitude: -21.1962035
+longitude: -50.529556
+altitude: 0.0
+speed: 0.0
+heading: 50
+status: 0
+quality: 0
+satellites: 0
+hdop: 0.0
+ondulation: 0.0
+age: 0
+station_id: 0"
+
+rostopic pub -1 /rtk_fix rtk/rtk_fix "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+utc_date: 0
+utc_time: 0
+latitude: -21.196206166666666
+longitude: -50.52956016666667
+altitude: 0.0
+speed: 0.0
+heading: 50
+status: 0
+quality: 0
+satellites: 0
+hdop: 0.0
+ondulation: 0.0
+age: 0
+station_id: 0"
+
+rostopic pub -1 /rtk_fix rtk/rtk_fix "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+utc_date: 0
+utc_time: 0
+latitude: -21.196209
+longitude: -50.5295645
+altitude: 0.0
+speed: 0.0
+heading: 50
+status: 0
+quality: 0
+satellites: 0
+hdop: 0.0
+ondulation: 0.0
+age: 0
+station_id: 0"
+
+rostopic pub -1 /rtk_fix rtk/rtk_fix "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+utc_date: 0
+utc_time: 0
+latitude: -21.1962245
+longitude: -50.529586333333334
+altitude: 0.0
+speed: 0.0
+heading: 50
+status: 0
+quality: 0
+satellites: 0
+hdop: 0.0
+ondulation: 0.0
+age: 0
+station_id: 0"
+
+rostopic pub -1 /rtk_fix rtk/rtk_fix "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+utc_date: 0
+utc_time: 0
+latitude: -21.196745
+longitude: -50.530387833333336
+altitude: 0.0
+speed: 0.0
+heading: 50
+status: 0
+quality: 0
+satellites: 0
+hdop: 0.0
+ondulation: 0.0
+age: 0
+station_id: 0"
+
+rostopic pub -1 /rtk_fix rtk/rtk_fix "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+utc_date: 0
+utc_time: 0
+latitude: -21.196793333333332
+longitude: -50.530463833333336
+altitude: 0.0
+speed: 0.0
+heading: 50
+status: 0
+quality: 0
+satellites: 0
+hdop: 0.0
+ondulation: 0.0
+age: 0
+station_id: 0"
+
+rostopic pub -1 /rtk_fix rtk/rtk_fix "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+utc_date: 0
+utc_time: 0
+latitude: -21.196807
+longitude: -50.53048533333333
+altitude: 0.0
+speed: 0.0
+heading: 50
+status: 0
+quality: 0
+satellites: 0
+hdop: 0.0
+ondulation: 0.0
+age: 0
+station_id: 0"
+
+rostopic pub -1 /rtk_fix rtk/rtk_fix "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+utc_date: 0
+utc_time: 0
+latitude: -21.19677498346306
+longitude: -50.53045695614046
+altitude: 0.0
+speed: 0.0
+heading: 50
+status: 0
+quality: 0
+satellites: 0
+hdop: 0.0
+ondulation: 0.0
+age: 0
+station_id: 0"
+
+
+

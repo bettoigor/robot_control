@@ -1,0 +1,14 @@
+line_following:
+  control:
+    rate: 15
+    force_cmd_vel: True
+    gains_line: [0.000,0.]
+    linear_velocity: 1.0
+    angular_velocity: 0.7
+    gains_polar: [1.3,2.0,1.6]
+    linear_threshold: 0.50
+    angular_threshold: 0.115
+    gps_offset: 1.85
+    control_weight: [1.0,0.20,0]
+    local_mission: False
+    edge_size: 3

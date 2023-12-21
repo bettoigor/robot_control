@@ -1,0 +1,31 @@
+<launch>
+    
+    <!-- Loading the robot control parameters to the Param Server -->
+    <rosparam file="$(find robot_control)/cfg/discovery_params.yaml"/>
+	
+	<!-- Starting the middle level control node --> 
+    <node name="discovery_node" 
+        pkg="robot_control" 
+        type="discovery_main.py"
+        output="screen">
+
+        <remap from="image_raw" to="/camera/color/image_raw"/>
+        <remap from="rtk" to="/rtk_fix"/>
+        <remap from="mission" to="/mission"/>
+        <remap from="cmd_vel" to="/cmd_vel"/>
+        <remap from="cmd_vel_img" to="/visual_servoing/cmd_vel"/>
+        <remap from="start_map" to="/map/start"/>
+        <remap from="reset_visual" to="/visual_servoing/reset"/>
+        <remap from="start_visual" to="/visual_servoing/start"/>
+        <remap from="save_mission" to="/map/save_mission"/>
+        <remap from="save_map" to="/map/save_map"/>
+        <remap from="line_header" to="/map/line_header"/>
+        <remap from="mission_header" to="/map/mission_header"/>
+        <remap from="abort_mission" to="/discovery/abort_mission"/>
+        <remap from="save_line" to="/map/save_line"/>
+
+
+    </node>
+
+   	
+</launch>
